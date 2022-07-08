@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@import url(//db.onlinewebfonts.com/c/1fbe10678e637530067167465205839f?family=Gabelisa);
+/* font-family: 'Fredericka the Great', cursive;
+font-family: 'Montserrat', sans-serif; */
+body{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.flex-container{
+    padding: 42px 55px;
+    /* width: 100%; */
+}
+.container{
+    background-image: url(./img/recteng-back.png), url(./img/mainBackground.jpg);
+    background-position: right;
+    background-repeat: no-repeat, no-repeat;
+    height: 826px;
+}
+ul{ 
+    list-style-type: none;
+    margin-left: 670px;
+    margin-top: -70px;
+}
+li{
+    float: left;
+}
+li a{
+    text-decoration: none;
+    display: block;
+    padding: 55px;
+    font-weight: 600;
+    color: #000000;
+}
+/* header part starts */
+header{
+    display: flex;
+    height: 135px;
+}
+.heading-1{
+    width: 10%;
+}
+.heading-2{
+    width: 86%;
+    text-align: right;
+    padding-top: 13px;
+}
+.heading-3{
+    padding-left: 10px;
+}
+/* header and navbar ended */
+.banner{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 100%;
+}
+.part1{
+    width: 10%;
+    margin-left: 55px;
+}
+.part2{
+    width: 30%;
+    margin-bottom: -300px;
+}
+.half-width1{
+    width: 70%;
+}
+.half-width2{
+    width: 30%;
+}
+.banner-text{
+    display: inline;
+}
+.part3{
+    width: 10%;
+}
+.part3 img{
+    width: 100%;
+    margin-bottom: -550px;
+}
+.part4{
+    width: 5%;
+}
+.part4 img{
+    width: 100%;
+    margin-left: -80px;
+    margin-top: -27px;
+}
+.part5{
+    width: 50%;
+}
+.part5 img{
+    width: 145%;
+    margin-top: -180px;
+    margin-left: -270px;
+}
+.part6{
+    width: 5%;
+}
+.part6 img{
+    width: 100%;
+    margin-bottom: -511px;
+    margin-left: -120px;
+}
