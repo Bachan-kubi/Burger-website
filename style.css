@@ -60,22 +60,24 @@ header{
 }
 .part1{
     width: 10%;
-    margin-left: 55px;
+    margin-left: 75px;
+    margin-top: -20px;
 }
 .part2{
     width: 30%;
-    padding: 30px 0;
+    padding: 70px 0;
+    margin-left: -80px;
 }
 .part2 h2{
     font-family: 'Fredericka the Great', cursive;
     font-size: 35px;
     font-weight: 600;
+    text-align: center;
 }
 .part2 h1{
     font-family: 'Fredericka the Great', cursive;
     font-size: 60px;
     font-weight: 500;
-    text-align: left;
 }
 .part2 h3{
     font-family: 'Montserrat', sans-serif;
@@ -92,8 +94,21 @@ header{
     width: 30%;
 }
 .sub-title{
-    display: flex
+    display: flex;
 }
+.sub-title .half-width1{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Fredericka the Great', cursive;
+    padding: 10px 55px;
+}
+.sub-title .half-width2{
+    font-weight: 500;
+    font-family: 'Fredericka the Great', cursive;
+    margin-left: -55px;
+    font-size: 55px;
+}
+
 .part3{
     width: 10%;
 }
@@ -114,7 +129,7 @@ header{
 }
 .part5 img{
     width: 145%;
-    margin-top: -180px;
+    margin-top: -200px;
     margin-left: -270px;
 }
 .part6{
