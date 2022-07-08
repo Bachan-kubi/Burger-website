@@ -18,7 +18,7 @@ body{
     background-image: url(./img/recteng-back.png), url(./img/mainBackground.jpg);
     background-position: right;
     background-repeat: no-repeat, no-repeat;
-    height: 826px;
+    height: 100vh;
 }
 ul{ 
     list-style-type: none;
@@ -129,7 +129,7 @@ header{
 }
 .part5 img{
     width: 145%;
-    margin-top: -200px;
+    margin-top: -220px;
     margin-left: -270px;
 }
 .part6{
