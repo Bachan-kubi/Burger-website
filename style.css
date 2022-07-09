@@ -147,6 +147,26 @@ header{
 /* order page started */
 .order-page{
     background-image: url(./img/bg1.png);
-    background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
+    height: 100vh;
+}
+.oreder-now-with{
+    margin: 0 75px;
+}
+.order-now{
+    text-align: center;
+    padding-top: 50px;
+}
+.order-image{
+    display: flex;
+    padding-top: 90px;
+    text-align: center;
+    margin: ;
+}
+.image-width{
+    width: 33.33%;   
+}
+.image-width img{
+    width: 100%;
 }
