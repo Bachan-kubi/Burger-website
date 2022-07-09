@@ -140,3 +140,13 @@ header{
     margin-bottom: -511px;
     margin-left: -120px;
 }
+.sphegaty{
+    margin-top: -450px;
+}
+/* banner part design ended */
+/* order page started */
+.order-page{
+    background-image: url(./img/bg1.png);
+    background-size: cover;
+    background-position: center;
+}
