@@ -97,13 +97,15 @@ header{
     display: flex;
 }
 .sub-title .half-width1{
-    font-size: 20px;
-    font-weight: 500;
-    font-family: 'Fredericka the Great', cursive;
     padding: 10px 55px;
 }
-.sub-title .half-width2{
-    font-weight: 500;
+.sub-title .half-width1 p{
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 20px;
+    font-weight: 700;
+}
+.sub-title .half-width2 p{
+    font-weight: 900;
     font-family: 'Fredericka the Great', cursive;
     margin-left: -55px;
     font-size: 55px;
@@ -151,6 +153,12 @@ header{
     background-position: center;
     height: 100vh;
 }
+.order-page .order-now h1{
+    padding: 10px 15px;
+    font-family: 'Fredericka the Great', cursive;
+    font-weight: 900;
+    font-size: 40px;
+}
 .oreder-now-with{
     margin: 0 75px;
 }
@@ -162,11 +170,101 @@ header{
     display: flex;
     padding-top: 90px;
     text-align: center;
-    margin: ;
+    
 }
 .image-width{
-    width: 33.33%;   
+    width: 33.33%; 
+    margin: 10px;  
 }
 .image-width img{
     width: 100%;
+}
+.image-width h3, p{
+    font-family: 'Montserrat', sans-serif;
+}
+.order-page .image-width a{
+    text-decoration: none;
+    background-color: #ffe100;
+    padding: 10px 20px;
+    display: block;
+    width: 200px;
+    text-align: center;
+    margin-left: 90px;
+    margin-top: 35px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+/* order page styling ended */
+/* dicover page style */
+.discover{
+    padding-top: 100px;
+    text-align: center;
+}
+.discover h3{
+    font-family: 'Montserrat', sans-serif;
+    padding: 15px;
+}
+.discover h1{
+    font-family: 'Fredericka the Great', cursive;
+    font-weight: 700;
+    font-size: 30px;
+    padding: 15px;
+}
+.discover p{
+    font-family: 'Fredericka the Great', cursive;
+}
+.dis{
+    display: flex;
+}
+.dis-image{
+    width: 33.33%;
+}
+.dis-image img{
+    width: 100%;
+}
+.img1{
+    width: 75%;
+    margin-left: -40px;
+    margin-right: -55px;
+}
+.img2{
+    margin-top: 80px;
+}
+.img3{
+    margin-top: 80px;
+}
+.dots{
+    text-align: center;
+}
+/* EXTRA PART START */
+.extra{
+    display: flex;
+    margin: 50px 80px;
+    color: white;
+}
+.extra-1{
+    width: 50%;
+    background-image: url(./img/xtra1.png);
+    background-repeat: no-repeat;
+    height: 70vh;
+}
+.extra-text h3{
+    padding: 5px 15px;
+}
+.extra-text h2{
+    margin: 0 15px;
+    width: 40px;
+}
+.extra-2{
+    width: 50%;
+}
+.extra-2 .inner-part-1{
+    background-image: url(./img/xtra2.png);
+    background-repeat: no-repeat;
+    height: 29vh;
+}
+.extra-2 .inner-part-2{
+    background-image: url(./img/xtra3.png);
+    background-repeat: no-repeat;
+    height: 100vh;
 }
