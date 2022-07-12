@@ -333,3 +333,21 @@ footer{
     padding-top: 200px;
     text-transform: capitalize;
 }
+.footer-2 i p{
+    color: white;
+    display: inline-block;
+    padding: 15px;
+}
+.footer-2 i{
+    color: #ffe100;
+    margin-left: 20px;
+}
+.footer-2 .social-icon{
+    margin-top: 200px;
+    padding-left: 450px;
+}
+.footer-2 .social-icon i{
+    color: white;
+    margin-left: 5px;
+    font-size: 20px;
+}
