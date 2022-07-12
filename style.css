@@ -268,3 +268,37 @@ header{
     background-repeat: no-repeat;
     height: 100vh;
 }
+/* reservation style started */
+.reservation{
+    margin-top: -500px;
+    text-align: center;
+}
+.reservation h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+.reservation h1{
+    margin-top: 15px;
+    font-family: 'Fredericka the Great', cursive;
+    font-weight: 700;
+    font-size: 35px;
+}
+form{
+    margin-top: 30px;
+}
+.reservation input{
+    width: 250px;
+    padding: 10px;
+    margin: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+#people{
+    margin-left: -2px;
+}
+.reserve-btn{
+    padding: 12px 82px;
+    margin-left: 10px;
+    background-color: #ffe100;
+    border: none;
+}
